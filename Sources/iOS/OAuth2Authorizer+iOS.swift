@@ -21,6 +21,7 @@
 
 import UIKit
 import SafariServices
+
 #if !NO_MODULE_IMPORT
 import p2_OAuth2
 #endif
@@ -33,9 +34,8 @@ public final class OAuth2Authorizer: OAuth2AuthorizerUI {
 	
 	/// Used to store the `SFSafariViewControllerDelegate`.
 	var safariViewDelegate: AnyObject?
-	
-	
-	public init(oauth2: OAuth2) {
+    
+	public init(oauth2: OAuth2Base) {
 		self.oauth2 = oauth2
 	}
 	
