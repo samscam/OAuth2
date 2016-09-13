@@ -21,7 +21,7 @@
 
 import UIKit
 #if !NO_MODULE_IMPORT
-import Base
+import p2_OAuth2
 #endif
 
 
