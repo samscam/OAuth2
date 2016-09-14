@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.requires_arc = true
 
-  s.source_files = "Sources/Base/*.swift"
+  s.source_files = "Sources/Base/*.swift", "Sources/Flows/*.swift", "Sources/DataLoader/*.swift", 
   s.ios.source_files = "Sources/iOS/*.swift"
   s.osx.source_files = "Sources/macOS/*.swift"
   s.tvos.source_files = "Sources/tvOS/*.swift"
