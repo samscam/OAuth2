@@ -23,7 +23,7 @@ import UIKit
 import SafariServices
 
 #if !NO_MODULE_IMPORT
-import p2_OAuth2
+import Base
 #endif
 
 
